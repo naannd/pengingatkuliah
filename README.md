@@ -1,59 +1,145 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# PengingatKuliah
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+PengingatKuliah adalah aplikasi manajemen akademik mahasiswa berbasis Laravel 12 yang membantu pengguna mengatur jadwal kuliah, tugas, reminder, dan catatan dalam satu platform modern dan responsive.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Jadwal Kuliah
+- Tambah, edit, dan hapus jadwal kuliah
+- Tampilan jadwal harian
+- Kalender akademik interaktif
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Manajemen Tugas
+- Tracking progress tugas
+- Status selesai / belum selesai
+- Filter & pencarian tugas
+- Statistik progress akademik
 
-## Learning Laravel
+## Reminder & Notifikasi
+- Reminder deadline tugas
+- Notifikasi jadwal kuliah
+- Reminder otomatis pada dashboard
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Catatan
+- Membuat catatan perkuliahan
+- Penyimpanan catatan terorganisir
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## UI Modern
+- Dark / Light mode
+- Responsive mobile
+- Dashboard modern & aesthetic
+- Kombinasi warna orange + blue
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Tech Stack
 
-### Premium Partners
+- Laravel 12
+- PHP 8+
+- MySQL
+- Tailwind CSS
+- JavaScript
+- FullCalendar
+- Chart.js
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 📸 Screenshots
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Halaman Login
 
-## Code of Conduct
+![Dashboard](screenshots/halamanlogin.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Light mode Dashboard
 
-## Security Vulnerabilities
+![Dashboard](screenshots/dasboardterang.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Dark mode Dashboard
 
-## License
+![Dashboard](screenshots/dasboarddark.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Jadwal
+
+![Mobile](screenshots/jadwal.png)
+
+### Tugas
+
+![Calendar](screenshots/tugas.png)
+
+
+---
+
+Installation
+
+Clone repository:
+
+bash
+git clone https://github.com/naannd/pengingatkuliah.git
+
+
+Masuk ke folder project:
+
+bash
+cd pengingatkuliah
+
+
+Install dependency:
+
+bash
+composer install
+npm install
+
+
+Copy file environment:
+
+bash
+cp .env.example .env
+
+
+Generate app key:
+
+bash
+php artisan key:generate
+
+
+Setup database:
+
+bash
+php artisan migrate
+
+
+Run project:
+
+bash
+npm run dev
+php artisan serve
+
+
+---
+
+Folder Structure
+
+bash
+app/
+routes/
+resources/
+public/
+database/
+
+
+---
+
+Author
+
+*Nanda*
+
+GitHub:
+https://github.com/naannd
+
+---
+
+License
+
+This project is licensed under the MIT License.
