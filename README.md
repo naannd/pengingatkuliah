@@ -71,75 +71,75 @@ Features
 
 ---
 
-Installation
+## Installation
 
 Clone repository:
 
-bash
+```bash
 git clone https://github.com/naannd/pengingatkuliah.git
-
+```
 
 Masuk ke folder project:
 
-bash
+```bash
 cd pengingatkuliah
-
+```
 
 Install dependency:
 
-bash
+```bash
 composer install
 npm install
-
+```
 
 Copy file environment:
 
-bash
+```bash
 cp .env.example .env
-
+```
 
 Generate app key:
 
-bash
+```bash
 php artisan key:generate
-
+```
 
 Setup database:
 
-bash
+```bash
 php artisan migrate
-
+```
 
 Run project:
 
-bash
+```bash
 npm run dev
 php artisan serve
-
+```
 
 ---
 
-Folder Structure
+## Folder Structure
 
-bash
+```bash
 app/
 routes/
 resources/
 public/
 database/
-
+```
 
 ---
 
-Author
+## Author
 
-*Nanda*
+**Nanda**
 
 GitHub:
 https://github.com/naannd
 
 ---
 
-License
+## License
 
 This project is licensed under the MIT License.
